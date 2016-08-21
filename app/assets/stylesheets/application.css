@@ -13,7 +13,7 @@
  *= require_tree .
  *= require_self
  */
-@import 'https://fonts.googleapis.com/css?family=Fjalla+One|Average';
+@import 'https://fonts.googleapis.com/css?family=Fjalla+One|Slabo+27px';
 
 html {
   height: 100%;
@@ -24,8 +24,11 @@ h1 {
 }
 
 body{
-  height: 100%;
-  font-family: "Average", serif;
+  height: 140%;
+  background-image: url("/wallpaper4.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  font-family: "Slabo 27px", serif;
 }
 
 .title_home{
@@ -36,4 +39,15 @@ body{
 .body_home{
   text-align: center;
   font-size: 1em;
+}
+
+.links_home{
+  text-align: center;
+  text-decoration: none;
+  margin-top: 2em;
+}
+
+.photo{
+  height: 250px;
+  margin-top: 2em;
 }
