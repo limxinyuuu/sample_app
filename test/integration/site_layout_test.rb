@@ -9,7 +9,7 @@ class SiteLayoutTest < ActionDispatch::IntegrationTest
     #assert_template 'static_pages/home'
     #assert_select "a[href=?]", root_path
     assert_select "a[href=?]", about_path
-    assert_select "a[href=?]", rsvp_path
+    assert_select "a[href=?]", signup_path
     assert_select "a[href=?]", blog_path
   end
 end
