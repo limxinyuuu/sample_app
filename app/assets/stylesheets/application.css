@@ -21,6 +21,15 @@ html {
 
 h1 {
   font-family: "Fjalla One", sans-serif;
+  margin-bottom: 20px;
+  font-size: 3em;
+  letter-spacing: -2px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.7em;
+  margin-bottom: 15px;
 }
 
 body{
