@@ -10,5 +10,8 @@ class StaticPagesController < ApplicationController
 
   def rsvp
   end
-  
+
+  def blog
+  end
+
 end
