@@ -24,7 +24,7 @@ h1 {
 }
 
 body{
-  height: 140%;
+  height: 100%;
   background-image: url("/wallpaper4.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -50,4 +50,8 @@ body{
 .photo{
   height: 250px;
   margin-top: 2em;
+  background-image: url("/ourphoto.jpg");
+  background-size: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
