@@ -4,8 +4,15 @@
 .photo{
   height: 250px;
   margin-top: 2em;
+  margin-bottom: 2em;
   background-image: image-url("ourphoto.jpg");
   background-size: 30%;
   background-position: center;
   background-repeat: no-repeat;
 }
+
+ #map {
+   width: 40%;
+   height: 400px;
+   background-color: grey;
+ }

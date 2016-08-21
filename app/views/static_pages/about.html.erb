@@ -1,7 +1,32 @@
 
-<% provide(:title, "About") %>
-<h1>About Our Wedding</h1>
-<p>Date: 3 December 2016</p>
-<p>Venue: Singapore University of Technology and Design</p>
-<p>Time: 5.30 pm</p>
-<p>Attire: Smart Casual</p>
+<% provide(:title, "Details") %>
+<h1>Details of Our Wedding</h1>
+<p>When: 3 December 2016, 5.30 pm</p>
+<p>Where: Singapore University of Technology and Design</p>
+
+
+<div id="map"></div>
+    <script>
+      function initMap() {
+        var mapDiv = document.getElementById('map');
+
+        var map = new google.maps.Map(mapDiv, {
+            center: {lat: 1.3406078, lng: 103.9631743},
+            zoom: 16
+        });
+
+        var marker = new google.maps.Marker({
+            position: {lat: 1.3406078, lng: 103.9631743},
+            map: map,
+            title: 'SUTD'
+        });
+      }
+    </script>
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCT1Ja6ocZRyWo9KL9a-hNmMCk936IS3Aw&callback=initMap">
+    </script>
+
+<p>Drop us an
+  <a href="mailto:limxinyuuu@gmail.com">email</a>
+  if you have any questions!
+</p>
