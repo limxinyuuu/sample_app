@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+@import 'https://fonts.googleapis.com/css?family=Fjalla+One|Average';
+
+html {
+  height: 100%;
+}
+
+h1 {
+  font-family: "Fjalla One", sans-serif;
+}
+
+body{
+  height: 100%;
+  font-family: "Average", serif;
+}
+
+.title_home{
+  text-align: center;
+  font-size: 3em;
+}
+
+.body_home{
+  text-align: center;
+  font-size: 1em;
+}
