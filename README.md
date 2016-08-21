@@ -1,24 +1,5 @@
-# README
+# Ruby on Rails sample application for TechLadies Bootcamp
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the sample application for application to the TechLaides Bootcamp.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Created by Lim Xin Yu
