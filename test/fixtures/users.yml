@@ -1,1 +1,4 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+xinyu:
+  name: Lim Xin Yu
+  email: limxinyuuu@gmail.com
