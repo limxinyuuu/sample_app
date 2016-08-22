@@ -13,14 +13,14 @@
  *= require_tree .
  *= require_self
  */
-@import 'https://fonts.googleapis.com/css?family=Fjalla+One|Slabo+27px';
+@import 'https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro';
 
 html {
   height: 100%;
 }
 
 h1 {
-  font-family: "Fjalla One", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 20px;
   font-size: 3em;
   letter-spacing: -2px;
@@ -38,5 +38,5 @@ body{
   background-image: url("/wallpaper4.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  font-family: "Slabo 27px", serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
