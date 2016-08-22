@@ -1,8 +1,9 @@
 <% provide(:title, 'Well Wishes') %>
 <h1>Well Wishes</h1>
 
-<div class="row">
+<%= render 'shared/blogpost_form' %>
 
+<div class="row">
   <div class="col-md-8">
       <ol class="microposts">
         <%= render @blogposts %>
