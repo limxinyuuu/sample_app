@@ -1,3 +1,27 @@
-// Place all the styles related to the Microposts controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+/* microposts */
+$light-gray: #777;
+
+.microposts {
+  list-style: none;
+  padding: 0;
+  li {
+    padding: 10px 0;
+    border-top: 1px solid #e8e8e8;
+  }
+  .user {
+    margin-top: 5em;
+    padding-top: 0;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+  .content {
+    display: block;
+    font-size: 1.2em;
+  }
+  .timestamp {
+    color: $light-gray;
+    display: block;
+    font-size: 1.2em;
+  }
+
+}
