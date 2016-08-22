@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'blogposts/index'
+
   get 'users/new'
 
   get 'static_pages/home'
@@ -23,6 +25,6 @@ Rails.application.routes.draw do
 
   resources :microposts,          only: [:create, :destroy]
 
-  #resources :microposts
+  resources :blogposts
 
 end

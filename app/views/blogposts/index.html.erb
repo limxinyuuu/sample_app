@@ -1,0 +1,17 @@
+<% provide(:title, 'Well Wishes') %>
+<h1>Well Wishes</h1>
+
+<div class="row">
+
+  <div class="col-md-8">
+      <ol class="microposts">
+        <%= render @blogposts %>
+      </ol>
+  </div>
+</div>
+
+<div class="scroll">
+  <%= will_paginate %>
+</div>
+
+<%= render 'layouts/footer' %>
