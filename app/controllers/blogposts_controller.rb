@@ -6,15 +6,18 @@ class BlogpostsController < ApplicationController
   end
 
   def create
-    @blogpost = Blogpost.new(blogpost_params)
-    if @blogpost.save
-      #flash[:success] = "Message saved!"
-      redirect_to '/blogposts'
-    else
-      #render 'new'
-      redirect_to '/blogposts'
+      @blogpost = Blogpost.new(blogpost_params)
+      if @blogpost.save
+        flash[:ok] = "Message saved!"
+        redirect_to '/blogposts'
+        #redirect_to('/blogposts', :notice => "Message sent ....")
+      else
+        flash[:error] = "Failed. Please fill in both fields."
+        #render 'error'
+        #redirect_to :back
+        redirect_to '/blogposts'
+      end
     end
-  end
 
   #def new
   #  @blogpost = Blogpost.new

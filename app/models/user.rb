@@ -1,5 +1,6 @@
 class User < ApplicationRecord
   has_many :microposts, dependent: :destroy
+  default_scope -> { order(created_at: :desc) }
   validates :name, presence: true
   validates_uniqueness_of :name
   validates :email, presence: true
